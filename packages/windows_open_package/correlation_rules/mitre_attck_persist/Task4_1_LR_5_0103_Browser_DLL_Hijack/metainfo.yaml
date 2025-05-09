@@ -2,4 +2,26 @@ ContentAutoName: Task4_1_LR_5_0103_Browser_DLL_Hijack
 ExpertContext:
   Created: 09.05.2025
   Updated: 09.05.2025
+  KnowledgeHolders:
+    - '01_03'
+  Usecases:
+    - Правило обнаруживает загрузку позрительного dll в браузер
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
 ObjectId: SEC-CR-122874360
+ContentRelations:
+  Implements:
+    ATTACK:
+      persistence:
+        - T1574.001
+      privilege-escalation:
+        - T1574.001
+      defense-evasion:
+        - T1574.001
+EventDescriptions:
+  - Criteria: correlation_name = "Task4_1_LR_5_0103_Browser_DLL_Hijack"
+    LocalizationId: corrname_Task4_1_LR_5_0103_Browser_DLL_Hijack
