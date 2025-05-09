@@ -1,0 +1,30 @@
+ContentAutoName: Task3_2_LR_5_0103_Gootkit
+ExpertContext:
+  Created: 09.05.2025
+  Updated: 09.05.2025
+  KnowledgeHolders:
+    - '01_03'
+  Usecases:
+    - Правило обнаруживает использование Gootkit
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Security-Auditing
+      EventID:
+        - 4657
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 13
+        - 12
+ObjectId: SEC-CR-117206797
+ContentRelations:
+  Implements:
+    ATTACK:
+      persistence:
+        - T1547.001
+      privilege-escalation:
+        - T1547.001
+EventDescriptions:
+  - Criteria: correlation_name = "Task3_2_LR_5_0103_Gootkit"
+    LocalizationId: corrname_Task3_2_LR_5_0103_Gootkit

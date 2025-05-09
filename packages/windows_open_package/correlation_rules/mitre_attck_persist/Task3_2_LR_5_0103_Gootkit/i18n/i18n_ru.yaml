@@ -1,0 +1,4 @@
+Description: 'Обнаружено использование gootkit'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task3_2_LR_5_0103_Gootkit'
+    EventDescription: 'h'
