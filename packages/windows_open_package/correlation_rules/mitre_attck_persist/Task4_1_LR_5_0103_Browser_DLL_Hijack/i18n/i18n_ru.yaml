@@ -1,0 +1,4 @@
+Description: 'Загрузка подозрительного dll в браузер'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task4_1_LR_5_0103_Browser_DLL_Hijack'
+    EventDescription: 'Загружен {object.process.name} в процесс {subject.process.name} на узле {event_src.host}'
