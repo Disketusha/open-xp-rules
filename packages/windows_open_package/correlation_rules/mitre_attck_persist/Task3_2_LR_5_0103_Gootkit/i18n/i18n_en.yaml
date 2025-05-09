@@ -1,0 +1,4 @@
+Description: 'Using gootkit is detected'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task3_2_LR_5_0103_Gootkit'
+    EventDescription: 'On host {event_src.host}, there was a suspicious access to the registry path ieak\grouppolicy\pendinggpos'
