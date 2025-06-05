@@ -1,0 +1,4 @@
+Description: 'Exploration of running processes'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task3_1_LR_6_0103_Meterpreter'
+    EventDescription: 'The process {subject.process.name } accessed the memory of more than 10 different processes in a short time on the {event_src.host} node'

@@ -1,0 +1,4 @@
+Description: 'Инъекция вредоносной библиотеки в svchost'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task1_1_LR_6_0103_jjs_sideloading'
+    EventDescription: 'Запущен процесс {object.process.name} процессом {object.process.parent.name}'

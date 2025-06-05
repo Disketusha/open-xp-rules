@@ -1,0 +1,28 @@
+ContentAutoName: Task2_1_LR_6_0103_directx_keylogging
+ExpertContext:
+  Created: 06.06.2025
+  Updated: 06.06.2025
+  KnowledgeHolders:
+    - '01_03'
+  Usecases:
+    - Изменение пути реестра directinput\mostrecentapplication с нестандартной директории
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Security-Auditing
+      EventID:
+        - 4657
+    - Provider: Microsoft-Windows-System
+      EventID:
+        - 12
+        - 13
+ObjectId: SEC-CR-62475485
+EventDescriptions:
+  - Criteria: correlation_name = "Task2_1_LR_6_0103_directx_keylogging"
+    LocalizationId: corrname_Task2_1_LR_6_0103_directx_keylogging
+ContentRelations:
+  Implements:
+    ATTACK:
+      collection:
+        - T1056.001

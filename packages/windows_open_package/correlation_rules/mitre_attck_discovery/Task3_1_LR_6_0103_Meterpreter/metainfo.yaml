@@ -1,0 +1,23 @@
+ContentAutoName: Task3_1_LR_6_0103_Meterpreter
+ExpertContext:
+  Created: 03.06.2025
+  Updated: 04.06.2025
+  KnowledgeHolders:
+    - '01_03'
+  Usecases:
+    - Разведка запущенных процессов
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-146390370
+EventDescriptions:
+  - Criteria: correlation_name = "Task3_1_LR_6_0103_Meterpreter"
+    LocalizationId: corrname_Task3_1_LR_6_0103_Meterpreter
+ContentRelations:
+  Implements:
+    ATTACK:
+      discovery:
+        - T1057
