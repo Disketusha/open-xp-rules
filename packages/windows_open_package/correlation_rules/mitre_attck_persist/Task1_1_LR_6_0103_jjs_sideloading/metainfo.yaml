@@ -1,0 +1,29 @@
+ContentAutoName: Task1_1_LR_6_0103_jjs_sideloading
+ExpertContext:
+  Created: 06.06.2025
+  Updated: 06.06.2025
+  KnowledgeHolders:
+    - 0103
+  Usecases:
+    - Инъекция вредоносной библиотеки в svchost
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Security-Auditing
+      EventID: []
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-383704480
+ContentRelations:
+  Implements:
+    ATTACK:
+      persistence:
+        - T1574.001
+      privilege-escalation:
+        - T1574.001
+      defense-evasion:
+        - T1574.001
+EventDescriptions:
+  - Criteria: correlation_name = "Task1_1_LR_6_0103_jjs_sideloading"
+    LocalizationId: corrname_Task1_1_LR_6_0103_jjs_sideloading

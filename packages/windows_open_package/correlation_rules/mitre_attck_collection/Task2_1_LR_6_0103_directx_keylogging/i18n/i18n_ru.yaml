@@ -1,0 +1,4 @@
+Description: 'Изменение пути реестра directinput\mostrecentapplication с нестандартной директории'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task2_1_LR_6_0103_directx_keylogging'
+    EventDescription: 'Подозрительный процесс {subject.process.name} изменил путь реестра {subject.process.fullpath}'

@@ -1,0 +1,4 @@
+Description: 'Injection of a malicious library into svchost'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task1_1_LR_6_0103_jjs_sideloading'
+    EventDescription: 'The process is running {object.process.name } by process {object.process.parent.name }'

@@ -1,0 +1,4 @@
+Description: 'Changing the directinput\mostrecentapplication registry path from a non-standard directory'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task2_1_LR_6_0103_directx_keylogging'
+    EventDescription: 'A suspicious process {subject.process.name } changed the registry path {subject.process.fullpath}'

@@ -1,0 +1,4 @@
+Description: 'Разведка запущенных процессов'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task3_1_LR_6_0103_Meterpreter'
+    EventDescription: 'Процесс {subject.process.name} обратился к памяти более 10 разных процессов за короткое время на узле {event_src.host}'
